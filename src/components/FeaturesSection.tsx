@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
-import { Shield, Zap, Smartphone, Globe, Lock, BarChart3 } from "lucide-react";
+import { Shield, Zap, Smartphone, Salad, Brain, BarChart3 } from "lucide-react";
 
 const features = [
-  { icon: Zap, title: "Lightning Fast", desc: "Instant responses with edge computing. No lag, no wait.", color: "var(--accent)" },
-  { icon: Shield, title: "Bank-Grade Security", desc: "End-to-end encryption keeps your data safe at all times.", color: "var(--primary)" },
-  { icon: Smartphone, title: "Native Experience", desc: "Feels like a native app with silky smooth animations.", color: "var(--glow-warm)" },
-  { icon: Globe, title: "Works Everywhere", desc: "Seamless sync across all your devices, everywhere you go.", color: "var(--accent)" },
-  { icon: Lock, title: "Privacy First", desc: "Your data stays yours. Zero tracking, zero compromises.", color: "var(--primary)" },
-  { icon: BarChart3, title: "Smart Insights", desc: "AI-powered analytics that help you make better decisions.", color: "var(--glow-warm)" },
+  { icon: Brain, title: "AI Meal Plans", desc: "Smart recommendations tailored to your nutritional needs and preferences.", color: "var(--primary)" },
+  { icon: Salad, title: "500+ Recipes", desc: "Healthy, delicious recipes with full nutritional breakdowns.", color: "var(--glow-accent)" },
+  { icon: BarChart3, title: "Live Metrics", desc: "Track calories, BMI, protein and more with real-time dashboards.", color: "var(--primary)" },
+  { icon: Zap, title: "Lightning Fast", desc: "Instant meal suggestions and seamless browsing experience.", color: "var(--glow-accent)" },
+  { icon: Shield, title: "Diet Safe", desc: "Vegetarian, vegan, gluten-free — filters for every lifestyle.", color: "var(--primary)" },
+  { icon: Smartphone, title: "Native Experience", desc: "Feels like a native app with silky smooth animations.", color: "var(--glow-accent)" },
 ];
 
 const FeaturesSection = () => (
@@ -25,7 +25,7 @@ const FeaturesSection = () => (
           Why You'll <span className="text-gradient-warm">Love It</span>
         </h2>
         <p className="text-muted-foreground mt-4 max-w-lg mx-auto">
-          Built with cutting-edge technology and designed for humans.
+          Built for health-conscious people who love great food.
         </p>
       </motion.div>
 

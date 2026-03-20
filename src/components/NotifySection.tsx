@@ -29,7 +29,7 @@ const NotifySection = () => {
             Be the <span className="text-gradient-primary">First</span> to Know
           </h2>
           <p className="text-muted-foreground mt-4 max-w-md mx-auto mb-10">
-            Drop your email and we'll notify you the moment we launch. No spam, just one email.
+            Drop your email and we'll notify you the moment NibbleEats launches. No spam, just one email.
           </p>
         </motion.div>
 
@@ -67,7 +67,6 @@ const NotifySection = () => {
           </motion.button>
         </motion.form>
 
-        {/* Trust indicators */}
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -75,7 +74,7 @@ const NotifySection = () => {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="flex items-center justify-center gap-6 mt-8 text-xs text-muted-foreground"
         >
-          {["🔒 No spam", "⚡ Instant alert", "🎁 Early access perks"].map((t) => (
+          {["🔒 No spam", "⚡ Instant alert", "🥗 Early access perks"].map((t) => (
             <span key={t}>{t}</span>
           ))}
         </motion.div>
