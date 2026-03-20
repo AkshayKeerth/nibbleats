@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Leaf } from "lucide-react";
 
 const Footer = () => (
   <footer className="relative py-16 px-6 border-t border-border/50">
@@ -12,9 +13,9 @@ const Footer = () => (
       >
         <div className="flex items-center gap-2">
           <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-xs">N</span>
+            <Leaf className="w-3.5 h-3.5 text-primary-foreground" />
           </div>
-          <span className="font-bold text-foreground">NexaApp</span>
+          <span className="font-bold text-foreground">NibbleEats</span>
         </div>
         <div className="flex items-center gap-6 text-sm text-muted-foreground">
           {["Privacy", "Terms", "Contact"].map((link) => (
@@ -24,7 +25,7 @@ const Footer = () => (
           ))}
         </div>
         <p className="text-xs text-muted-foreground">
-          © 2026 NexaApp. All rights reserved.
+          © 2026 NibbleEats. All rights reserved.
         </p>
       </motion.div>
     </div>

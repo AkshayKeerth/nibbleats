@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Leaf } from "lucide-react";
 
 const Navbar = () => (
   <motion.nav
@@ -10,9 +11,9 @@ const Navbar = () => (
     <div className="max-w-6xl mx-auto glass rounded-2xl px-6 py-3 flex items-center justify-between">
       <div className="flex items-center gap-2">
         <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-          <span className="text-primary-foreground font-bold text-sm">N</span>
+          <Leaf className="w-4 h-4 text-primary-foreground" />
         </div>
-        <span className="font-bold text-lg tracking-tight text-foreground">NexaApp</span>
+        <span className="font-bold text-lg tracking-tight text-foreground">NibbleEats</span>
       </div>
       <div className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
         {["Features", "Preview", "Notify Me"].map((item) => (
